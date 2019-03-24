@@ -83,4 +83,8 @@ a {
     justify-content: center;
     align-items: center;
 }
+/* info Container */
+.info {
+    height: 200px;
+}
   

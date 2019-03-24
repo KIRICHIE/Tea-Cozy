@@ -62,3 +62,25 @@ a {
     padding: 5px;
     margin: 10px;
 }
+/* Location Container */
+.location {
+    background-image: url("../img/img-locations-background.jpg");
+    height: 500px;
+    padding-top: 70px;
+}
+.flex-container {
+    display: flex;
+    margin: auto;
+}
+.locationType {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 15px;
+    background-color: black;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  

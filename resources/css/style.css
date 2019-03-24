@@ -87,4 +87,8 @@ a {
 .info {
     height: 200px;
 }
-  
+
+/* footer */
+footer {
+    text-align: left;
+}

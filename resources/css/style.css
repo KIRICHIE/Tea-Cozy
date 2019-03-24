@@ -28,8 +28,9 @@ a {
     text-align: left;
 }
 
-/* Main Content Container */
+/* Main Mission Container */
 .ourMission {
+    display: flex;
     position: relative;
     padding-top: 50px;
     height: 700px;
@@ -42,4 +43,22 @@ a {
     right: 0;
     left: 0;
     background-color: black;
+}
+/* Main Tea Container */
+.tea {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+.teaFirst,
+.teaSecound {
+    display: flex;
+    justify-content: center;
+}
+.teaFirst img,
+.teaSecound img {
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    margin: 10px;
 }

@@ -1,0 +1,28 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+div {
+    border: 3px white;
+}
+header {
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+a {
+    color: white;
+    margin-left: 50px;
+}
+.header img {
+    height: 50px;
+    margin-left: 10px;
+}
+.navilink {
+    display: flex;
+    text-align: left;
+}

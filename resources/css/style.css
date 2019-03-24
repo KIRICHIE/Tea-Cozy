@@ -4,6 +4,7 @@ body {
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    text-align: center;
 }
 div {
     border: 3px white;
@@ -25,4 +26,20 @@ a {
 .navilink {
     display: flex;
     text-align: left;
+}
+
+/* Main Content Container */
+.ourMission {
+    position: relative;
+    padding-top: 50px;
+    height: 700px;
+    width: 1200px;
+
+}
+.ourMission div.text {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: black;
 }
